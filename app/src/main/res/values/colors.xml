@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3755da</color>
+
+    <color name="primary_dark">#1929b5</color>
+
+    <color name="primary_light">#FFCCBC</color>
+
+    <color name="accent">#f7f4f4</color>
+
+    <color name="primary_text">#212121</color>
+
+    <color name="secondary_text">#757575</color>
+
+    <color name="icons">#FFFFFF</color>
+
+    <color name="divider">#BDBDBD</color>
+
+    <color name="white_full">#FFFFFF</color>
+
+    <color name="black_full">#000000</color>
+
+    <color name="white_overlay_light">#9333</color>
+
+    <color name="white_ish">#EEE</color>
+
+    <color name="black_ish">#111</color>
+</resources>

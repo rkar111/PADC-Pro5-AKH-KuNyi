@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.mmtextview.components.MMTextView
+        android:id="@+id/tvJobDetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_medium"
+        android:text="@string/house_cleaning"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_heading_1x" />
+
+    <TextView
+        android:id="@+id/tvPhTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/tvJobDetailTitle"
+        android:layout_below="@id/tvJobDetailTitle"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:text="@string/phone_number"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/text_regular_2x" />
+
+    <org.mmtextview.components.MMTextView
+        android:id="@+id/tvPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvJobDetailTitle"
+        android:layout_toEndOf="@id/tvPhTag"
+        android:text="@string/ph_no"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_regular_2x" />
+
+    <TextView
+        android:id="@+id/tvfullDescTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/tvJobDetailTitle"
+        android:layout_below="@id/tvPhTag"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/full_desc"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/text_regular_2x" />
+
+    <org.mmtextview.components.MMTextView
+        android:id="@+id/tvFullDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPhoneNo"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_toEndOf="@id/tvfullDescTag"
+        android:text="@string/ph_no"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_regular_2x" />
+
+    <TextView
+        android:id="@+id/tvLocationTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/tvJobDetailTitle"
+        android:layout_below="@id/tvFullDesc"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/locationtag"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/text_regular_2x" />
+
+    <org.mmtextview.components.MMTextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFullDesc"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_toEndOf="@id/tvLocationTag"
+        android:text="@string/ph_no"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_regular_2x" />
+
+</RelativeLayout>

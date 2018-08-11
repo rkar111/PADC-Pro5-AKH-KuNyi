@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KuNyi</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="msg_generic_no_data">No Data to Display</string>
+    <string name="lbl_refresh">Refresh</string>
+    <string name="house_cleaning">House Cleaning</string>
+    <string name="price">30000</string>
+    <string name="botahtaung">Botahtaung</string>
+    <string name="apply">APPLY</string>
+    <string name="date">2-3-2015</string>
+    <string name="pricetag">Price :</string>
+    <string name="locationtag">Location :</string>
+    <string name="posted_date_tag">Posted Date :</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="ph_no">034324</string>
+    <string name="full_desc">Full Desc :</string>
+</resources>

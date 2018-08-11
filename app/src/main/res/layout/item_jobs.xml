@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_small"
+    android:padding="@dimen/margin_medium"
+    app:cardElevation="@dimen/margin_small">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <org.mmtextview.components.MMTextView
+            android:id="@+id/tvJobTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/house_cleaning"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_heading_1x" />
+
+        <TextView
+            android:id="@+id/tvPricetag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tvJobTitle"
+            android:layout_below="@id/tvJobTitle"
+            android:text="@string/pricetag"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/text_regular_2x" />
+
+        <org.mmtextview.components.MMTextView
+            android:id="@+id/tvJobPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvJobTitle"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_toEndOf="@id/tvPricetag"
+            android:text="@string/price"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_regular_2x" />
+
+        <TextView
+            android:id="@+id/tvLocationtag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tvJobTitle"
+            android:layout_below="@id/tvPricetag"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/locationtag"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/text_regular_2x" />
+
+        <org.mmtextview.components.MMTextView
+            android:id="@+id/tvJobLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPricetag"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_toEndOf="@id/tvLocationtag"
+            android:maxLines="1"
+            android:text="@string/botahtaung"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_regular_2x" />
+
+        <TextView
+            android:id="@+id/tvpostedDatetag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tvJobTitle"
+            android:layout_below="@id/tvLocationtag"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/posted_date_tag"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/text_regular_2x" />
+
+        <org.mmtextview.components.MMTextView
+            android:id="@+id/tvJobPostedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLocationtag"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_toEndOf="@id/tvpostedDatetag"
+            android:text="@string/date"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_regular_2x" />
+
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvpostedDatetag"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:foreground="@drawable/ripple_accent"
+            android:text="@string/apply" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
