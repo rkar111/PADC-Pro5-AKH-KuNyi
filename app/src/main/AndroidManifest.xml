@@ -24,6 +24,9 @@
         <activity android:name=".activities.JobDetailActivity">
 
         </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ed6e4ba39d779054b01031c2c50c49b31925aeb5" />
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

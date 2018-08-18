@@ -19,6 +19,8 @@ import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.api.GoogleApi
 import com.google.android.gms.common.api.GoogleApiClient
 import com.padcmyanmar.mmnews.kotlin.components.SmartScrollListener
+import com.crashlytics.android.Crashlytics
+import io.fabric.sdk.android.Fabric
 
 import kotlinx.android.synthetic.main.activity_job_list.*
 import xyz.arkarhein.kunyi.R
@@ -39,6 +41,7 @@ class JobListActivity : BaseActivity(), JobListView, GoogleApiClient.OnConnectio
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Fabric.with(this, Crashlytics())
         setContentView(R.layout.activity_job_list)
         setSupportActionBar(toolbar)
 

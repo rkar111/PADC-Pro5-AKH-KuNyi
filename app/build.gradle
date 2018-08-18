@@ -71,8 +71,13 @@ dependencies {
     implementation 'com.google.firebase:firebase-config:16.0.0'
 
     implementation 'com.google.android.gms:play-services-appinvite:16.0.1'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.4@aar') {
+        transitive = true;
+    }
 }
 repositories {
     mavenCentral()
+    maven { url 'https://maven.fabric.io/public' }
 }
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'io.fabric'
